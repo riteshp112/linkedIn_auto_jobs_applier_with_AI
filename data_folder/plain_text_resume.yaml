@@ -5,6 +5,7 @@ personal_information:
   country: "India"
   city: "Hisar"
   address: "Shant Vihar"
+  zip_code: "125005"
   phone_prefix: "+91"
   phone: "9140287372"
   email: "riteshp112@gmail.com"

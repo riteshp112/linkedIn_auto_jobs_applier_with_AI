@@ -152,6 +152,7 @@ def init_browser() -> webdriver.Chrome:
     try:
         
         options = chrome_browser_options()
+        options.add_argument("--user-data-dir=.config/google-chrome")
         service = ChromeService(ChromeDriverManager().install())
         return webdriver.Chrome(service=service, options=options)
     except Exception as e:

@@ -273,6 +273,9 @@ class LinkedInEasyApplier:
         text_fields = section.find_elements(By.TAG_NAME, 'input') + section.find_elements(By.TAG_NAME, 'textarea')
         if text_fields:
             text_field = text_fields[0]
+            print(text_field,"Checking if already filled")
+            if(text_field.get_attribute('value') != ''):
+                print(text_field,"Already filled , ignoring")
             question_text = section.find_element(By.TAG_NAME, 'label').text.lower()
             is_numeric = self._is_numeric_field(text_field)
             if is_numeric:

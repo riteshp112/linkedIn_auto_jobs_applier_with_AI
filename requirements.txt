@@ -29,7 +29,7 @@ faiss-cpu==1.8.0.post1
 Flask==3.0.0
 Flask-Cors==4.0.0
 frozenlist==1.4.0
-g4f==0.3.2.8
+g4f==0.1.7.6
 greenlet==3.0.0
 h11==0.14.0
 h2==4.1.0

@@ -21,7 +21,6 @@ cssselect==1.2.0
 curl_cffi==0.7.1
 dbus-python==1.2.16
 decorator==5.1.1
-defer==1.0.6
 distlib==0.3.8
 distro==1.4.0
 distro-info==0.23+ubuntu1.1
